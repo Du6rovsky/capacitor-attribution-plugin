@@ -1,0 +1,69 @@
+{
+  "name": "@inphinit/capacitor-attribution-plugin",
+  "version": "1.0.0",
+  "description": "Capacitor plugin providing access to Apple Search Ads Attribution Token (iOS) and Google Play Install Referrer URL (Android).",
+  "author": "inphinit",
+  "homepage": "https://inphinit.space/capacitor-attribution-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Du6rovsky/capacitor-attribution-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Du6rovsky/capacitor-attribution-plugin/issues"
+  },
+  "license": "GPL-3.0-only",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "unpkg": "dist/plugin.js",
+  "keywords": [
+    "android-install-referrer",
+    "play-install-referrer",
+    "apple-attribution",
+    "install-referrer-url",
+    "attribution-token",
+    "install-referrer",
+    "capacitor-plugin",
+    "apple-search-ads",
+    "attribution",
+    "google-play",
+    "adservices",
+    "analytics",
+    "capacitor",
+    "android",
+    "ios"
+  ],
+  "files": [
+    "InphinitCapacitorAttributionPlugin.podspec",
+    "package.json",
+    "README.md",
+    "android/",
+    "LICENSE",
+    "dist/",
+    "ios"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc && rollup -c rollup.config.mjs",
+    "clean": "rimraf ./dist"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@capacitor/core": "^8.4.1",
+    "typescript": "^6.0.3",
+    "rimraf": "^6.1.3",
+    "rollup": "^4.62.2"
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^6 || ^7 || ^8"
+  }
+}

@@ -1,0 +1,22 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+# Compiled output
+/dist
+
+# Node
+/node_modules
+package-lock.json
+
+# Android
+/android/build
+
+# IDEs and editors
+.idea/
+
+# System files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+Thumbs.db
