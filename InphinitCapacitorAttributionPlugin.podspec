@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'InphinitCapacitorAttributionPlugin'
-  s.version = '1.0.0'
+  s.version = '1.0.2'
   s.summary = 'Capacitor plugin providing Apple Search Ads Attribution Token'
   s.license = 'GPL-3.0-only'
   s.author = { 'inphinit' => 'inphinit.dev@gmail.com' }

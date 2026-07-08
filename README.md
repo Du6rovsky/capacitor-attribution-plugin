@@ -59,7 +59,7 @@ if (platform === 'ios') {
 
 This project is dual-licensed:
 
-- AGPL-3.0-only for open-source projects
+- GPL-3.0-only for open-source projects
 - Commercial license for proprietary applications
 
 More information:

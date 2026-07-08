@@ -1,6 +1,6 @@
 {
   "name": "@inphinit/capacitor-attribution-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Capacitor plugin providing access to Apple Search Ads Attribution Token (iOS) and Google Play Install Referrer URL (Android).",
   "author": "inphinit",
   "homepage": "https://inphinit.space/capacitor-attribution-plugin",
