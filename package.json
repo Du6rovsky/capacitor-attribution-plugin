@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/Du6rovsky/capacitor-attribution-plugin/issues"
   },
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
