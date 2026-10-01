@@ -2,10 +2,10 @@
 
 A lightweight Capacitor plugin for accessing native mobile attribution data
 
-- Apple Search Ads Attribution Token (iOS 14.3+)
-- Google Play Install Referrer URL (Android)
-- Capacitor 6, 7, 8 are supported
-- Dual licensing (GPL-3.0-only + Commercial)
+- 🍏 **Apple Search Ads Attribution Token** (iOS 14.3+)
+- 🤖 **Google Play Install Referrer URL** (Android)
+- ⚡ **Capacitor 6, 7, 8 are supported**
+- ⚖️ **MIT license**
 
 No AppsFlyer, Adjust, Branch or other third-party attribution SDKs required
 
@@ -55,15 +55,9 @@ if (platform === 'ios') {
 { referrerUrl: string }
 ```
 
-## License
+## 📄 License
+This project is distributed under the terms of the MIT license
 
-This project is dual-licensed:
-
-- GPL-3.0-only for open-source projects
-- Commercial license for proprietary applications
-
-More information:
-https://inphinit.space/capacitor-attribution-plugin
-
-Contact:
-inphinit.dev@gmail.com
+### Need help integrating it?
+I can integrate it into your application</br>
+📩 **inphinit.dev@gmail.com**
